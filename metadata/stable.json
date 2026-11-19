@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "product": "Nextora Finance Tracker",
+  "channel": "stable",
+  "releases": [
+    {
+      "version": "2.1.0",
+      "channel": "stable",
+      "releaseDate": "2026-11-19",
+      "notes": {
+        "newFeatures": [
+          "Update Management Center with release notes, channel selection and update history"
+        ],
+        "improvements": ["Automatic signed update checks with clear progress"],
+        "bugFixes": [],
+        "security": ["Signed artifacts verified by the Tauri updater plugin"]
+      },
+      "mandatory": false,
+      "minSchemaVersion": 2,
+      "signature": null
+    }
+  ]
+}
